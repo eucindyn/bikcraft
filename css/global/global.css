@@ -20,6 +20,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto; /* dessa maneira a altura vai crescer de acordo com a imagem */
   display: block;
 }
 
