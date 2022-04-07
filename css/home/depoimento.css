@@ -14,6 +14,7 @@
 .depoimento-conteudo {
   padding: 40px 40px 80px 80px;
   align-self: end;
+  background: url("../../img/decorador/bottom-right-p.svg") no-repeat bottom 40px right 40px;
 }
 
 .depoimento p {
@@ -40,6 +41,18 @@
   content: "”";
 }
 
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 700px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .depoimento {
+   grid-template-columns: 500px 500px;  
+  }
+}
+
 @media (max-width: 800px) {
   .depoimento p {
     max-width: 32ch;
@@ -54,5 +67,16 @@
   .depoimento-conteudo {
     padding: 40px 20px;
     justify-self: center;
+  }
+}
+
+@media (max-width:600px) {
+  .depoimento p::after {
+    margin-right: 30px;
+    font-size: 50px;
+  }
+  .depoimento p::before {
+    margin-left: 30px;
+    font-size: 50px;
   }
 }

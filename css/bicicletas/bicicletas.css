@@ -7,7 +7,11 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 60px;  
+}
+
+.bicicletas:nth-child(even){
+  background: url("../../img/decorador/top-right.svg") no-repeat top 40px right 20px;
 }
 
 .bicicletas-imagem {
