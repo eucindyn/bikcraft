@@ -2,6 +2,10 @@
   background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
 }
 
+textarea::placeholder {
+  color: var(--cor-4);
+}
+
 .contato {
   display: grid;
   grid-template-columns: 5fr 7fr;
